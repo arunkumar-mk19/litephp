@@ -1,0 +1,18 @@
+{
+    "name": "codelite/litephp",
+    "description": "A simple light weight PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arunkumar-mk19",
+            "email": "arunkumar.mk19@gmail.com"
+        }
+    ],
+    "require": {}
+}
