@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Core\Database\ORM;
+namespace LitePHP\Database\ORM;
 
 class Model
 {
@@ -19,4 +19,6 @@ class Model
     protected bool $hasTimestamps = true;
 
     protected bool $hasPrimaryKey = true;
+
+    protected int $fetchMode = \PDO::FETCH_OBJ;
 }

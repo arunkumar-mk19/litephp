@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Core\Support;
+namespace LitePHP\Support;
 
 class Str
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Core\Database\Connectors;
+namespace LitePHP\Database\Connectors;
 
 class PDOConnector
 {

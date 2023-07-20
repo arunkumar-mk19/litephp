@@ -1,14 +1,15 @@
 <?php
 
-use Core\Http\Request;
-use Core\Model;
+use LitePHP\Http\Request;
+use LitePHP\Model;
+use LitePHP\Support\Str;
 
 $rootPath = dirname(__DIR__);
 
 require $rootPath . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 require $rootPath . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
-echo "<h1>Hello World!</h1>";
+echo Str::random(6);
 
 // $model = new Model();
 // echo $model->find('hi');

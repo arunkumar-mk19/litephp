@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace LitePHP;
 
-class Model
+abstract class Model
 {
     protected $amount = 2;
 

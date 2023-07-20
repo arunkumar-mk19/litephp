@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Core;
+namespace LitePHP;
 
 use RuntimeException;
 use InvalidArgumentException;
